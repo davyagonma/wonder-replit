@@ -1,0 +1,66 @@
+
+
+### 🎯 Objectifs du site
+
+* **Informer** : Présenter l’école, ses valeurs, son programme et ses activités.
+* **Rassurer** : Mettre en avant la qualité de l’enseignement et du suivi pédagogique.
+* **Attirer** : Donner envie aux parents d’inscrire leurs enfants.
+* **Convertir** : Proposer un formulaire de contact ou de préinscription en ligne.
+
+---
+
+### 🏗️ Structure du site vitrine
+
+1. **Page d’accueil**
+
+   * Slogan accrocheur (ex. *“Former les leaders de demain avec passion et excellence”*).
+   * Slider ou vidéo courte présentant les activités (karaté, informatique, cuisine, danse).
+ *  mot du directeur
+   * Mise en avant des atouts : langues (anglais, espagnol), discipline, développement personnel.
+
+2. **À propos**
+
+   * Historique de l’école.
+   * Mission, vision, valeurs.
+   * Présentation de l’équipe pédagogique.
+
+3. **Programmes & Activités**
+
+   * Enseignement maternel et primaire.
+   * Activités extrascolaires (karaté, danse, informatique, cuisine).
+   * Atouts différenciateurs (bilinguisme, pédagogie moderne, discipline).
+
+4. **Galerie photos & vidéos**
+
+   * Moments forts de l’école.
+   * Témoignages des parents et élèves (vidéo ou texte).
+
+5. **Admissions & Inscriptions**
+
+   * Conditions d’admission.
+   * Tarifs (optionnel ou sur demande).
+   * Formulaire en ligne pour préinscription.
+
+6. **Contact**
+
+   * Localisation Google Maps (avec "Djigbé Madjavi").
+   * Numéros WhatsApp cliquables.
+   * Formulaire de contact rapide.
+
+---
+
+### 🎨 Design recommandé
+
+* Couleurs vives et chaleureuses (orange, bleu clair, blanc) → déjà présentes dans l’affiche.
+* Design simple, rassurant et familial.
+* Beaucoup de visuels : enfants en activités, professeurs souriants, classes propres.
+
+---
+
+### ⚙️ Fonctionnalités bonus
+
+* **Chat WhatsApp intégré** pour contact direct.
+* **Multilingue** (Français + Anglais → vu que vous proposez déjà l’anglais et l’espagnol).
+* **Blog/Actualités** : publication des événements, résultats scolaires, sorties pédagogiques.
+* **Espace parents** (optionnel) : notes, devoirs, infos pratiques.
+
