@@ -1,11 +1,12 @@
 import express from "express";
 import { VercelRequest, VercelResponse } from '@vercel/node';
+import routes from "../server/routes";
 
 const app = express();
 
 // 👉 importe tes routes ici
-// import routes from "./server/routes";
-// app.use("/api", routes);
+
+app.use("/api", routes);
 
 app.get("/api/hello", (req, res) => {
   res.json({ message: "Hello from Express on Vercel 🚀" });
