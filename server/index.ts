@@ -1,10 +1,21 @@
 import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
+import { VercelRequest, VercelResponse } from "@vercel/node";
 
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+
+
+app.get("/api/hello", (req, res) => {
+  res.json({ message: "Hello from Express on Vercel 🚀" });
+});
+
+// Vercel adapter
+export default (req: VercelRequest, res: VercelResponse) => {
+  return app(req as any, res as any);
+};
 
 app.use((req, res, next) => {
   const start = Date.now();
