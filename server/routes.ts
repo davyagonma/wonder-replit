@@ -6,7 +6,7 @@ import { z } from "zod";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Enrollment requests
-  app.post("/api/enrollment", async (req, res) => {
+  app.post("/enrollment", async (req, res) => {
     try {
       const validatedData = insertEnrollmentRequestSchema.parse(req.body);
       const enrollmentRequest = await storage.createEnrollmentRequest(validatedData);
@@ -20,7 +20,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
-  app.get("/api/enrollment", async (req, res) => {
+  app.get("/enrollment", async (req, res) => {
     try {
       const requests = await storage.getEnrollmentRequests();
       res.json({ success: true, data: requests });
@@ -30,7 +30,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   });
 
   // Contact messages
-  app.post("/api/contact", async (req, res) => {
+  app.post("/contact", async (req, res) => {
     try {
       const validatedData = insertContactMessageSchema.parse(req.body);
       const contactMessage = await storage.createContactMessage(validatedData);
@@ -44,7 +44,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
-  app.get("/api/contact", async (req, res) => {
+  app.get("/contact", async (req, res) => {
     try {
       const messages = await storage.getContactMessages();
       res.json({ success: true, data: messages });
