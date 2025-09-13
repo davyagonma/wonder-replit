@@ -3,5 +3,8 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "./"  // IMPORTANT pour que les assets soient trouvés
+  base: "./", // Important pour Vercel
+  build: {
+    outDir: "dist" // dossier de sortie
+  }
 });
